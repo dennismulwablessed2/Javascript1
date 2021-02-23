@@ -2,7 +2,7 @@
 const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const maleNames = ["kwasi", "kwandwoa", "kwabenaa", "kwaku", "yaw", "kofi", "kwame"];
 const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","AMa" ];
-const months=["January","February","March","April","May","June","July","August","September","October","November","December"]
+const month=["January","February","March","April","May","June","July","August","September","October","November","December"]
 const calculateDay = () => {
     event.preventDefault()
 
@@ -12,8 +12,8 @@ const calculateDay = () => {
     const MM = parseInt(document.getElementById["month"].value);
     const DD = parseInt(document.getElementById["date"].value);
     console.log(year)
-    const d = Math.round( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7 
-    console.log[d];
+    const daysOfTheWeek= Math.round( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7 
+    console.log[dd];
     return d;
 
 };
