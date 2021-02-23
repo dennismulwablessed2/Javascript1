@@ -6,4 +6,8 @@ const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "
 const maleNames = ["kwasi", "kwandwoa", "kwabenaa", "kwaku", "yaw", "kofi", "kwame"];
 const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","AMa" ];
 
-const calculateDay
+const calculateDay = () => {
+    year = document.getElementById("year").value
+    const CC = parseInt(year.substring(0 , 2));
+    const YY = parseInt(year.substring(2 ,4));
+}
