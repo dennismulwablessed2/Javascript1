@@ -20,7 +20,7 @@ const calculateDay = () => {
 const getGender = () => {
   const maleName = document.getElementById("male"); 
    const femaleName= document.getElementById("female");
-  
+  console.log(male,female)
       
   }
 
