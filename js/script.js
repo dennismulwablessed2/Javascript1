@@ -1,3 +1,4 @@
+const calculateDayBorn = () =>{
 const year = document.getElementById("year").value
     const CC = parseInt[year.substring(0 , 2)];
     const YY = parseInt[year.substring(2 ,4)];
@@ -32,20 +33,18 @@ if(gender === "male"&& dayOfTheWeek === "Sunday"){
     console.log(male[dayBorn],"kwame");
 }
 if(gender === "female"&& dayOfTheWeek === "Sunday"){
-  console.log(female[dayBorn],"Akosua");
+  console.log(female[dayBorn],"Akosua");} {
   elseif(gender === "female"&& dayOfTheWeek === "Monday")
-    console.log(female[dayBorn],"Adwoa");
+    console.log(female[dayBorn],"Adwoa");} {
     elseif(gender === "female"&& dayOfTheWeek === "Tuesday")
-    console.log(female[dayBorn],"Abenaa");
+    console.log(female[dayBorn],"Abenaa");} {
     elseif(gender === "female"&& dayOfTheWeek === "Wednesday")
-    console.log(female[dayBorn],"Akua");
+    console.log(female[dayBorn],"Akua");} {
     elseif(gender === "female"&& dayOfTheWeek === "Thursday")
-    console.log(female[dayBorn],"Yaa");
+    console.log(female[dayBorn],"Yaa");} {
     elseif(gender === "female"&& dayOfTheWeek === "Friday")
-    console.log(female[dayBorn],"Afua");
+    console.log(female[dayBorn],"Afua");} {
     elseif(gender === "female"&& dayOfTheWeek === "Saturday")
-    console.log(male[dayBorn],"Ama");
+    console.log(male[dayBorn],"Ama");}
 }
-
-
-       
+ }
