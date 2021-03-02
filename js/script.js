@@ -1,3 +1,14 @@
+function birthdayForm () {
+  var month = document.forms["Birthform"] ["month"];
+  if((month < 0) || (month > 12)) {
+    alert("month is out of range")
+  }
+  var dayOfMonth = document.forms["Birthform"] ["dayOfMonth"];
+  if((dayOfMonth < 0) ||(dayOfMonth > 31)) {
+    alert("Day is out of range")
+  }
+}
+
 const calculateDayBorn = () =>{
 const year = document.getElementById("year").value
     const CC = parseInt[year.substring(0 , 2)];
@@ -46,5 +57,7 @@ if(gender === "female"&& dayOfTheWeek === "Sunday"){
     console.log(female[dayBorn],"Afua");} {
     elseif(gender === "female"&& dayOfTheWeek === "Saturday")
     console.log(male[dayBorn],"Ama");}
+
 }
  }
+

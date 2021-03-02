@@ -14,20 +14,13 @@
         </p>
      <div>  
          <form div="test-box">
-             <label id="name" for="">Month</label>
-             <input type="number" class="form-control" id="Month" name="Month">
-             <br>
-             <label id="name" for="">Days of the week</label>
-             <input type="number" class="form-control" id="days of the week" name="days of the week">
-             <br>
-             <label  id="name" for="">Year of Birth</label>
-             <input type="number" class="form-control" id="year"  name="year">
-             <br>
-             <input type="radio" id="male" name="gender" value="male">
-             <label class="gender"for="male">Male</label><br>
-             <input type="radio" id="female" name="gender" value="female">
-             <label  class="gender"for="female">Female</label><br>
-             <br><input type="submit" value="Submit" onclick="calculateDayBorn();" >
+            <form>
+                <p>Numeric Month (1-12): <input type="text" name="month"> </p>
+                <p>Day of Month (1-31): <input type="text" name="day"></p>
+                <p>Year: <input type="text" name="year"></p>
+                <p><input type="button" value="Update" onclick ="calculateDayBorn"> <input type="reset"
+                value="Clear"> </p>
+             
              <img src="hope/images/image4.jpg">
                 
              
